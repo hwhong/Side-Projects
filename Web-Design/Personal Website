@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
+<link rel="stylesheet" href="assets/stylesheet/style.css">
+<html>
+	<head>
+		<title> Warren Hong </title>
+		<style type="text/css">
+		body { 
+			background-color: rgb(77,207,250);
+			position:absolute;
+			height:600px;
+			width:1265px;
+			outline-style:solid;
+			color:white;}
+		div { 
+			position:absolute;
+			top:230px;
+			left:100px;}
+		span {
+			background-color: rgb(77,207,250);
+			font-family: Futura, "Trebuchet Ms", Arial, sans-serif;
+			font-size: 300%;
+			color: #FFFFFF;
+			text-align: left;}
+		} 
+		span:lang(zh-Hant) { 
+			background-color: rgb(77,207,250);
+			font-size: 300%;
+			color: #FFFFFF;
+			text-align: left;} 	
+		span:lang(zh-ko) { 
+			background-color: rgb(77,207,250);
+			font-size: 300%;
+			color: #FFFFFF;
+			Futura, "Trebuchet Ms", Arial, sans-serif;
+			text-align: left;} 	
+		h1 { 
+			background-color: rgb(77,207,250);
+			font-family: Futura, "Trebuchet Ms", Arial, sans-serif;
+			font-size: 200%;
+			color: #FFFFFF;
+			text-align: left;}
+		h2 { 
+			background-color: rgb(77,207,250);
+			font-family: Futura, "Trebuchet Ms", Arial, sans-serif;
+			font-size: 200%;
+			color: #FFFFFF;
+			text-align: left;}
+		p { 
+			background-color: rgb(77,207,250);
+			font-family: Futura, "Trebuchet Ms", Arial, sans-serif;
+			font-size: 100%;
+			color: #FFFFFF;
+			text-align: left;
+			position:absolute;
+			top:500px;
+			left:100px;}
+		a href="https://twitter.com/hwhong1129" { 
+			background-color: rgb(77,207,250);
+			font-family: Futura, "Trebuchet Ms", Arial, sans-serif;
+			font-size: 100%;
+			color: #FFFFFF;
+			text-align: left;
+			position:absolute;
+			top:500px;
+			left:100px;}
+		h3 {
+			background-color: white;
+			position:absolute;
+			height:600px;
+			width:1265px;
+			top:590px;
+			left:0.5px;
+			color: rgb(77,207,250);
+			font-size: 200%;
+			font-family: Futura, "Trebuchet Ms", Arial, sans-serif;
+		} 	
+		p.one {
+			background-color: white;
+			font-family: Futura, "Trebuchet Ms", Arial, sans-serif;
+			font-size: 200%;
+			color: rgb(77,207,250);
+			text-align: left;
+			position:absolute;
+			top: 700px;
+			left: 10px;
+		} 
+		p.two {
+			background-color: white;
+			font-family: Futura, "Trebuchet Ms", Arial, sans-serif;
+			font-size: 200%;
+			color: rgb(77,207,250);
+			text-align: left;
+			position:absolute;
+			top: 800px;
+			left: 10px;
+		} 
+		p.three {
+			background-color: white;
+			font-family: Futura, "Trebuchet Ms", Arial, sans-serif;
+			font-size: 200%;
+			color: rgb(77,207,250);
+			text-align: left;
+			position:absolute;
+			top: 750px;
+			left: 10px;
+		} 
+		
+		
+       	 	
+		</style>
+	</head>
+	<body>
+	<data-ui-view autoscroll="true"></data-ui-view>
+    <script src="/p/dist/libs.min.js?1.391023661187172091"></script>
+    <script src="/p/dist/script.min.js?1.391023661187172091"></script>
+    <script src="/p/dist/templates.js?1.391023661187172091"></script>
+        <div>
+		<span> Hello.</span> 
+		<span lang="zh-Hant"> <strong>你好.</strong> </span> 
+		<span lang="ko">안녕.</span> 
+		<h1>my name is warren.</h1>
+		<h2> part-time student. full-time dreamer </h2>
+		</div>
+		<p> Follow me on: 
+		<span1><a href="https://twitter.com/hwhong1129">Twitter</a></span1>
+		<span1><a href="https://medium.com/@hwhong">Medium</a></span1>
+		</p>
+		
+		<h3> more about me </h3>
+		<p class="one">
+		I am a computer science student who is passionate about art & design.
+		</p>
+		<p class="three">
+		I was born in Hong Kong, and raised in Taipei and Seoul. 
+		</p>
+		<p class="two">
+		Also an <b>aspiring entrepreneur</b> looking to <b>change the world</b>. 
+		</p>
+	</body>
+</html>
