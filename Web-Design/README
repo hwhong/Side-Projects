@@ -1,0 +1,15 @@
+Updates (Mid April 2016 ~ April 24th 2016)
+- I started this project around mid April, and since had made some small progresses. I've learned much about how the layout
+of the website works as well as the use of containers (div) to make more customizations on the website. The thing that I was
+quite surprised by how hard it was for me to make text fields and containers to be at places that I want them to be in. I found
+out I was guessing where the coordinate may be (using magic numbers) rather than actually coding in a smart way. I am still
+quite confused as to how to place pictures on my website. I've tried to access multiple website's page source and see how 
+they have implemented it, but had no luck at actually understanding the use of it. 
+Color is quite important when it comes to building a website. I discovered that the current color of my website may be a little
+dull and unintersting (maybe because it is still lacking contents), but I should probably learn more on color compositions. 
+
+- Things to work: 
+a) how to place containers and texts at places that I want them to be in 
+b) Look into how to put big, pretty pictures on website.
+c) recently learned about node.js and such, maybe look into those as well? 
+
