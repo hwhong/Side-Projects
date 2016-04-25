@@ -1,0 +1,74 @@
+1. Declaring a variable 
+
+var varName = 5      //implicitely 
+var varName: Int = 5 //explicitely 
+
+let varName = 5      //implicitely 
+let varName: Int = 5 //explicitely
+
+2. String inerpolation 
+
+print("the number varName is \(varName)")
+
+3. If-else 
+
+var population: Int = 500 
+
+if (varName > 5) { 
+print("small town haha")
+}
+
+4. Switch statements 
+
+//needs a "default:" at the end of every switch statement 
+
+5. where clause 
+//essentially another condition within the condition 
+
+if (varName > 5 where varName = 5)
+
+6. tuples 
+let varName = (statusCode, errorString)
+varName.0 //statusCode
+varNmae.1 //errorString 
+
+7. For-in loop 
+for i in 1..5 { 
+//do something 
+}
+
+8. Optionals 
+var varName: Int?
+var varName1: String? 
+- very useful 
+  a)optional binding //if optional is not nil proceed into the loop, this is done by assiging to another variable in condition
+  b) optional chaining
+
+9. the ?? syntax (the returned items both have to be of the same type)
+var syntax = varName ?? "something"
+if (varName == nil) { 
+  return "something"
+}
+else {
+  return varName
+} 
+
+10. arrays //think of these operations as ArrayList in java, because you cannot directly remove or add
+var array: [String] //take the use of type inference
+a) use the append() method to add into the array 
+b) use the removeAtIndex(int) to remove item
+c) array.count to return the number of items in the array 
+d) array[1] indexing the same way as java array
+e) insert(E item, int index) to add element at a specific index
+//recursively add items use the (var i in 0..<5) condition
+//use the == to compare 2 arrays 
+
+11. dictionary (think of it as an array of another form, a class object that contains a string and a double)
+var dict = [String, Double]() 
+//also uses the count method to count the number of items in a dictionary 
+methods such as 
+a) updateValue(_, forKey: "String")
+b) removeValueForKey("String")
+
+
+
