@@ -70,5 +70,21 @@ methods such as
 a) updateValue(_, forKey: "String")
 b) removeValueForKey("String")
 
+12. set (an unordered collection of distinct instances)
+var groceryBag = Set<String>()
+methods such as 
+a) insert(item)
+b) contains(item)
+c) union(set) combines to sets together
+d) intersect(set) items that are in both bags 
+e) isDisjointWith(set)
+
+13. functions 
+- varadic parameters 
+e.g vFunction( names: String...)
+- when function returns something (func nothing(name: String)->String)
+- using optional in return type (func grabMiddleName (name: (String, String?, String))--> String?) 
+
+
 
 
