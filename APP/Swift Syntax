@@ -89,6 +89,24 @@ e.g vFunction( names: String...)
 - making functions the parameter of another function. 
 //quite hard to follow, read more. 
 
+15. enumeration 
+enum textAlign { 
+case Right
+case Center 
+} 
+//can also specify the value by adding textAlign: Int { case Right = 16 ...etc }
+- var textAlign = textAlign.Right //instantiate the object of textAlign 
+- methods in an enum decleration 
+enum lightBulb { 
+case On
+case Off
+
+- func name(ambient: Double) -> Double { 
+//use switch cases on the lightBulb cases. To call the local variable lightBulb use the word "self" (= this)
+} 
+} 
+
+- mutator methods within the enumeration needs a "mutating phrase before the func"
 
 
 
