@@ -85,6 +85,12 @@ e.g vFunction( names: String...)
 - when function returns something (func nothing(name: String)->String)
 - using optional in return type (func grabMiddleName (name: (String, String?, String))--> String?) 
 
+14. closure 
+- making functions the parameter of another function. 
+//quite hard to follow, read more. 
+
+
+
 
 
 
