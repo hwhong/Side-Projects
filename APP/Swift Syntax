@@ -108,7 +108,26 @@ case Off
 
 - mutator methods within the enumeration needs a "mutating phrase before the func"
 
+16. Stucts 
+- structs are "classes" without the function of inheritance. 
+- like java, swift structs have instance variables and mutator methods. 
 
+17. Classes 
+- when a class inherits another class the syntax ":" is used (e.g class Zombie :Monster {...} )
+- to override the function used the "override" keyword 
+- to prevent the override of a function use the key word "final" (e.g final override func terrorizetown()) 
+
+18. Properties 
+- changing the constant or variable types 
+- the lazy stored properties 
+a) the value of a type will only be calculated once it is first accessed
+b) the bracket () after the lazy marking, ensures that swift will call the closure and assign the value when the property 
+is accessed for the first time 
+c) only calculated in the first time, never changes value after 
+- computed properties 
+a) provides getter and setters to retreive or set values 
+b) if getter is declared, it becomes a read only property 
+c) 
 
 
 
